@@ -1,99 +1,102 @@
 [
     {
-        "itemphotos": "[\"umaibo01.jpg\",\"umaibo02.jpg\",\"umaibo03.jpg\"]",
-        "name": "うまい棒サラミ味",
-        "price": "12",
-        "state": "true",
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
-        "id": "27002",
-        "colors": "黄色",
-        "maker": "（株）やおきん"
-    },
-    {
-        "itemphotos": "[\"yochan01.jpg\",\"yochan02.jpg\",\"yochan03.jpg\",\"yochan04.jpg\"]",
-        "name": "カットよっちゃん（よっちゃんイカ）",
-        "price": "50",
+        "itemphotos": [
+            "jouou01.jpg",
+            "jouou02.jpg",
+            "jouou03.jpg"
+        ],
+        "name": "女王と猿 / back number",
+        "price": 4000,
         "state": "false",
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
-        "id": "4710158-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）"
+        "text": "back number official fan club “one room” 限定 女王と猿 CD。"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "magic01.jpg",
+            "magic02.jpg",
+            "magic03.jpg"
+        ],
+        "name": "MAGIC [初回限定版A] / back number",
+        "price": 8580,
+        "state": "true",
+        "text": "ロングヒット中のベストアルバム『アンコール』を経て、前作『シャンデリア』から3年3ヶ月ぶりとなる待望の6枚目のオリジナルアルバム。"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "2nd01.jpg",
+            "2nd02.jpg",
+            "2nd03.jpg"
+        ],
+        "name": "1994 / w.o.d",
+        "price": 2200,
+        "state": "true",
+        "text": "神戸発!新世代グランジスターの2ndAlbumリリース決定!圧倒的なライブパフォーマンスが話題の男子が惚れるオルタナサウンド!1stAlbumで確立した一発録りのガレージサウンドを軸に、メロディアスなミドルテンポ楽曲「サニー」や、ロックンロールリバイバル/ニューウェイブも感じられる「THE CHAIR」など、バンドのポテンシャルの大きさを感じさせる時代の寵児たる意欲作となっている。"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "long01.jpg",
+            "long02.jpg",
+            "long03.jpg"
+        ],
+        "name": "LIFE IS TOO LONG / w.o.d",
+        "price": 2500,
+        "state": "true",
+        "text": "3ピースバンドw.o.d.の約1年半ぶりとなる3rdフルアルバムが完成!デジタルシングルとして先行リリースした、音に溺れられるライブハウスへの思いを轟音サウンドと共に歌う「楽園」、「消えていく記憶」というテーマをガレージサウンドに乗せた切なさが残る名曲「sodalite」、鬱屈とする日常を重厚なサウンドで撃ちぬく今後の代表曲にもなるであろう楽曲「モーニング・グローリー」を含む作品。轟音の中に見せる絶妙なポップセンスをさらに磨き上げた、進化版w.o.d.サウンドが完成。",
+        "null": null
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "smoke01.jpg",
+            "smoke02.jpg",
+            "smoke03.jpg"
+        ],
+        "name": "smoke!! / TENDOUJI",
+        "price": 2500,
+        "state": "true",
+        "text": "4月に発売したアルバムCD『MONSTER』に次ぐ、2021年2作目となるフルアルバム作品。CDには「Feelin'」「I don't need another life」「Young Love」など全10曲が収録される。"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "monster01.jpg",
+            "monster02.jpg",
+            "monster03.jpg"
+        ],
+        "name": "MONSTER / TENDOUJI",
+        "price": 2500,
+        "state": "true",
+        "text": "様々な音楽を貪欲に吸収し、変化を恐れない、強靭なポップネスを手に入れたTENDOUJIが贈る、2021年型ハイブリッド・オルタネティヴ・ロックの怪物(モンスター)!約4年ぶり、待望の2ndアルバムにして最高傑作『MONSTER』完成!"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "mad01.jpg",
+            "mad02.jpg",
+            "mad03.jpg"
+        ],
+        "name": "MADCITY / TENDOUJI",
+        "price": 2500,
+        "state": "true",
+        "text": "海外に恋い焦がれたTENDOUJIが全世界に贈る待望のファースト・フル・アルバム!完全新曲に加え、既に廃盤になっている1st EPより彼らの代表曲「GROUPEEEE」「HAPPY MAN」「THE DAY」も再録音され収録されている他、「don't be shy」にはゲストボーカルとしてMaika Loubte(マイカルブテ)を迎え、新たなアプローチのTENDOUJIを聴くことができる。"
     },
     {
-        "itemphotos": "",
-        "name": "",
-        "price": "",
-        "state": "",
-        "text": "",
-        "id": "",
-        "colors": "",
-        "maker": "",
-        "": ""
+        "itemphotos": [
+            "aoy01.jpg",
+            "aoy02.jpg",
+            "aoy03.jpg"
+        ],
+        "name": "All Our Yesterdays Tour 2017 at SAITAMA SUPER ARENA / back number",
+        "price": 6380,
+        "state": "true",
+        "text": "2016年12月にリリースし70万枚を超えるロングヒットを記録しているベストアルバム「アンコール」を引っさげて行われ、15箇所全30公演が即完し30万人を動員した「All Our Yesterdays Tour 2017 」を待望の映像化。"
+    },
+    {
+        "itemphotos": [
+            "neko01.jpg",
+            "neko02.jpg",
+            "neko03.jpg"
+        ],
+        "name": "「猫」イラストタオル ",
+        "price": 1800,
+        "state": "false",
+        "text": "「黒い猫の歌」にちなんで依与吏が描き下ろした様々な表情の猫のイラストをこれでもかとちりばめた総柄タオル!!真っ赤なback numberロゴもインパクト大！"
     }
 ]
