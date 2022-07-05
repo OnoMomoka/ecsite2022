@@ -1,0 +1,26 @@
+---
+title: チルい倶楽部
+layout: layout.njk
+---
+<header>
+    <h1>{{ title }}</h1>
+    <a href="">home</a>
+    <a href="">about</a>
+</header>
+<main>
+<h2>item</h2>
+{{ pagination.items[0].name | log }}
+<ul>
+{% for product in goods %}
+	<li>
+        <img src='./images/jouou01.jpg'>
+        <p>{{ product.name }}</p>
+        <p>{{ product.price }}</p>
+        </li>
+	{% endfor %}
+<ul>
+<a class="btn" href="">more</a>
+</main>
+<footer>
+<small>© 2022 CHILLUI CLUB</small>
+</footer>

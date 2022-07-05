@@ -1,0 +1,24 @@
+---
+title: 個別タイトル
+layout: layout.njk
+pagination:
+  data: goods
+  size: 1
+---
+
+<header>
+    <h1>タイトル</h1>
+    <a href="">home</a>
+    <a href="">about</a>
+</header>
+<main>
+  {% for product in goods %}
+        <img src='./images/'>
+        <p>{{ product.name }}</p>
+        <p>{{ product.price }}</p>
+        <p>{{ product.text }}</p>
+	{% endfor %}
+</main>
+<footer>
+
+</footer>
