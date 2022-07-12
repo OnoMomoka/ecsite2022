@@ -1,26 +1,37 @@
 ---
-title: チルい倶楽部
+title: 爆音倶楽部
 layout: layout.njk
 ---
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Kaisei+Opti:wght@400;500;700&family=Reggae+One&family=Roboto+Condensed:ital,wght@1,300&family=Stick&display=swap" rel="stylesheet">
+</head>
+<body>
 <header>
     <h1>{{ title }}</h1>
     <a href="">home</a>
     <a href="">about</a>
 </header>
 <main>
-<h2>item</h2>
-{{ pagination.items[0].name | log }}
+<h2>アイテム</h2>
+{{ product.name | log }}
 <ul>
 {% for product in goods %}
+
 	<li>
-        <img src='./images/jouou01.jpg'>
+        <a href="http://localhost:8081/{{ product.url }}.html">
+        <img src="./images/{{ product.itemphotos[0] }}">
         <p>{{ product.name }}</p>
         <p>{{ product.price }}</p>
+        </a>
         </li>
 	{% endfor %}
 <ul>
-<a class="btn" href="">more</a>
+<a class="btn" href="#">more</a>
 </main>
 <footer>
-<small>© 2022 CHILLUI CLUB</small>
+<small>© 2022 BAKUON CLUB</small>
 </footer>
+</body>

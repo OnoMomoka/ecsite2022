@@ -4,21 +4,42 @@ layout: layout.njk
 pagination:
   data: goods
   size: 1
+parmalink: '{{ product.items[0].url | slugify }}/'
 ---
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>{{ product.name }}</title>
+</head>
+<body>
 
 <header>
-    <h1>タイトル</h1>
+    <h1>{{ product.name }}</h1>
     <a href="">home</a>
     <a href="">about</a>
 </header>
 <main>
-  {% for product in goods %}
-        <img src='./images/'>
-        <p>{{ product.name }}</p>
+{{ product.name | log }}
+
+
+<div class="article_flex">
+
+<div class="article_image">
+  <img src="./images/{{ product.itemphotos[0] }}">
+  </div>
+        <h2>{{ product.name }}</h2>
         <p>{{ product.price }}</p>
         <p>{{ product.text }}</p>
-	{% endfor %}
+        <p>品番：{{ product.state }}</p>
+        <p>数量：<input type="number" name="num"></p>
+        <a class="btn" href="#">カートに入れる</a>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        
+	{# {% endfor %} #}
+
+  </div>
 </main>
 <footer>
 
 </footer>
+  
+</body>
