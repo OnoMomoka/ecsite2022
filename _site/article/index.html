@@ -16,39 +16,52 @@
 
 
 
-<div class="article_flex">
+<div id="article_flex">
 
 <div class="article_image">
-<span onclick="showimg1()"><img src="../images/jouou01.jpg"></span>　
-<span onclick="showimg2()"><img src="../images/jouou02.jpg"></span>　
-<span onclick="showimg3()"><img src="../images/jouou03.jpg"></span>
+
+<table border="0" width="470" cellpadding="0" cellspacing="0">
+<tr>
+<td width="120">
+<a href="javascript:document.ph01.src = '../images/jouou01.jpg'; void(0);">
+<img src="../images/jouou01.jpg" width="100" height="100"
+alt="写真1" border="0"></a><br>
+
+<a href="javascript:document.ph01.src = '../images/jouou02.jpg'; void(0);">
+<img src="../images/jouou02.jpg" width="100" height="100"
+alt="写真2" border="0" vspace="10"></a><br>
+
+<a href="javascript:document.ph01.src = '../images/jouou03.jpg'; void(0);">
+<img src="../images/jouou03.jpg" width="100" height="100"
+alt="写真3" border="0"></a><br></td>
+
+<td width="350" align="right"><img src="../images/jouou01.jpg"
+width="330" height="330" alt="拡大写真" name="ph01"></td>
+</tr>
+</table>
 </div>
+
 <div class="article_text">
         <h2>女王と猿 / back number</h2>
-        <p>¥4,000</p>
-        <p>back number official fan club “one room” 限定 女王と猿 CD。</p>
+        <p class="price">¥4,000</p>
+        <p>説明：back number official fan club “one room” 限定 女王と猿 CD。</p>
         <p>品番：FALSE</p>
         <p>数量：<input type="number" name="num"></p>
         <a class="btn" href="#">カートに入れる</a>
-        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <small>・ご注文時点では商品の確保は出来ておりません。<br>
+・在庫を上回るご注文やお取り寄せが叶わない場合、ご注文は自動でお取り消しとなります。<br>
+・お取り寄せ商品を含む複数商品を同時にご注文いただいた場合、全ての商品が揃ってからの出荷となります。<br>
+・お取り寄せは最長3週間かけて手配を行いますが、入荷見込みがない場合は該当商品の手配を中止し、ご用意ができた商品のみ出荷させていただきます。<br> 
+・注文決定後、組合員様ご都合によるキャンセル・返品・受取方法の変更は出来かねますので予めご了承ください。</small>
+ </div>
  </div>
 	
 
 </div>
 </main>
 <footer>
-
+<small>© 2022 BAKUON CLUB</small>
 </footer>
   
 </body>
-<script type="text/javascript">
-function showimg1(){
-     document.getElementById("area1").src = "jouou01.jpg";
-}
-function showimg2(){
-     document.getElementById("area1").src = "jouou02.jpg";
-}
-function showimg3(){
-     document.getElementById("area1").src = "jouou03.jpg";
-}
-</script>
+

@@ -16,39 +16,52 @@
 
 
 
-<div class="article_flex">
+<div id="article_flex">
 
 <div class="article_image">
-<span onclick="showimg1()"><img src="../images/magic01.jpg"></span>　
-<span onclick="showimg2()"><img src="../images/magic02.jpg"></span>　
-<span onclick="showimg3()"><img src="../images/magic03.jpg"></span>
+
+<table border="0" width="470" cellpadding="0" cellspacing="0">
+<tr>
+<td width="120">
+<a href="javascript:document.ph01.src = '../images/magic01.jpg'; void(0);">
+<img src="../images/magic01.jpg" width="100" height="100"
+alt="写真1" border="0"></a><br>
+
+<a href="javascript:document.ph01.src = '../images/magic02.jpg'; void(0);">
+<img src="../images/magic02.jpg" width="100" height="100"
+alt="写真2" border="0" vspace="10"></a><br>
+
+<a href="javascript:document.ph01.src = '../images/magic03.jpg'; void(0);">
+<img src="../images/magic03.jpg" width="100" height="100"
+alt="写真3" border="0"></a><br></td>
+
+<td width="350" align="right"><img src="../images/magic01.jpg"
+width="330" height="330" alt="拡大写真" name="ph01"></td>
+</tr>
+</table>
 </div>
+
 <div class="article_text">
         <h2>MAGIC [初回限定版A] / back number</h2>
-        <p>¥8,580</p>
-        <p>ロングヒット中のベストアルバム『アンコール』を経て、前作『シャンデリア』から3年3ヶ月ぶりとなる待望の6枚目のオリジナルアルバム。</p>
+        <p class="price">¥8,580</p>
+        <p>説明：ロングヒット中のベストアルバム『アンコール』を経て、前作『シャンデリア』から3年3ヶ月ぶりとなる待望の6枚目のオリジナルアルバム。</p>
         <p>品番：TRUE</p>
         <p>数量：<input type="number" name="num"></p>
         <a class="btn" href="#">カートに入れる</a>
-        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <small>・ご注文時点では商品の確保は出来ておりません。<br>
+・在庫を上回るご注文やお取り寄せが叶わない場合、ご注文は自動でお取り消しとなります。<br>
+・お取り寄せ商品を含む複数商品を同時にご注文いただいた場合、全ての商品が揃ってからの出荷となります。<br>
+・お取り寄せは最長3週間かけて手配を行いますが、入荷見込みがない場合は該当商品の手配を中止し、ご用意ができた商品のみ出荷させていただきます。<br> 
+・注文決定後、組合員様ご都合によるキャンセル・返品・受取方法の変更は出来かねますので予めご了承ください。</small>
+ </div>
  </div>
 	
 
 </div>
 </main>
 <footer>
-
+<small>© 2022 BAKUON CLUB</small>
 </footer>
   
 </body>
-<script type="text/javascript">
-function showimg1(){
-     document.getElementById("area1").src = "magic01.jpg";
-}
-function showimg2(){
-     document.getElementById("area1").src = "magic02.jpg";
-}
-function showimg3(){
-     document.getElementById("area1").src = "magic03.jpg";
-}
-</script>
+

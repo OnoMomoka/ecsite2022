@@ -49,6 +49,22 @@ li{
     li{
         margin-left:25px;
     }
-    
-   
+    #article_flex{
+        display:block"
+    }
+}
+
+#article_flex{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.article_image{
+    margin-top: 50px;
+}
+
+.article_text{
+   width:50%;
 }
