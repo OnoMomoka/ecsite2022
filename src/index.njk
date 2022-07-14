@@ -21,7 +21,7 @@ layout: layout.njk
 {% for product in goods %}
 
 	<li>
-        <a href="http://localhost:8081/{{ product.url }}.html">
+        <a href="http://localhost:8080/article/{{ product.url }}">
         <img src="./images/{{ product.itemphotos[0] }}">
         <p>{{ product.name }}</p>
         <p>{{ product.price }}</p>
@@ -29,8 +29,8 @@ layout: layout.njk
         </li>
 	{% endfor %}
 <ul>
-<a class="btn" href="#">more</a>
 </main>
+<a class="btn" href="#">more</a>
 <footer>
 <small>© 2022 BAKUON CLUB</small>
 </footer>

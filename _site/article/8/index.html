@@ -1,20 +1,14 @@
-
-<!DOCTYPE html>
-<html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>個別タイトル</title>
-	</head>
-	<body>
-		<head>
-    <link rel="stylesheet" href="./css/style.css">
-    <title></title>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Kaisei+Opti:wght@400;500;700&family=Reggae+One&family=Roboto+Condensed:ital,wght@1,300&family=Stick&display=swap" rel="stylesheet">
+    <title>「猫」イラストタオル </title>
 </head>
 <body>
 
 <header>
-    <h1></h1>
+    <h1>爆音倶楽部</h1>
     <a href="">home</a>
     <a href="">about</a>
 </header>
@@ -25,24 +19,36 @@
 <div class="article_flex">
 
 <div class="article_image">
-  <img src="./images/">
-  </div>
-        <h2></h2>
-        <p></p>
-        <p></p>
-        <p>品番：</p>
+<span onclick="showimg1()"><img src="../images/neko01.jpg"></span>　
+<span onclick="showimg2()"><img src="../images/neko02.jpg"></span>　
+<span onclick="showimg3()"><img src="../images/neko03.jpg"></span>
+</div>
+<div class="article_text">
+        <h2>「猫」イラストタオル </h2>
+        <p>¥1,800</p>
+        <p>「黒い猫の歌」にちなんで依与吏が描き下ろした様々な表情の猫のイラストをこれでもかとちりばめた総柄タオル!!真っ赤なback numberロゴもインパクト大！</p>
+        <p>品番：FALSE</p>
         <p>数量：<input type="number" name="num"></p>
         <a class="btn" href="#">カートに入れる</a>
         <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-        
+ </div>
 	
 
-  </div>
+</div>
 </main>
 <footer>
 
 </footer>
   
 </body>
-	</body>
-</html>
+<script type="text/javascript">
+function showimg1(){
+     document.getElementById("area1").src = "neko01.jpg";
+}
+function showimg2(){
+     document.getElementById("area1").src = "neko02.jpg";
+}
+function showimg3(){
+     document.getElementById("area1").src = "neko03.jpg";
+}
+</script>

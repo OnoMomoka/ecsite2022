@@ -1,19 +1,21 @@
 ---
-title: 個別タイトル
-layout: layout.njk
 pagination:
   data: goods
   size: 1
-parmalink: '{{ product.items[0].url | slugify }}/'
+  alias: product
+parmalink: 'goods/{{ product.items[0].url | slugify }}/'
 ---
 <head>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Kaisei+Opti:wght@400;500;700&family=Reggae+One&family=Roboto+Condensed:ital,wght@1,300&family=Stick&display=swap" rel="stylesheet">
     <title>{{ product.name }}</title>
 </head>
 <body>
 
 <header>
-    <h1>{{ product.name }}</h1>
+    <h1>爆音倶楽部</h1>
     <a href="">home</a>
     <a href="">about</a>
 </header>
@@ -24,8 +26,11 @@ parmalink: '{{ product.items[0].url | slugify }}/'
 <div class="article_flex">
 
 <div class="article_image">
-  <img src="./images/{{ product.itemphotos[0] }}">
-  </div>
+<span onclick="showimg1()"><img src="../images/{{ product.itemphotos[0] }}"></span>　
+<span onclick="showimg2()"><img src="../images/{{ product.itemphotos[1] }}"></span>　
+<span onclick="showimg3()"><img src="../images/{{ product.itemphotos[2] }}"></span>
+</div>
+<div class="article_text">
         <h2>{{ product.name }}</h2>
         <p>{{ product.price }}</p>
         <p>{{ product.text }}</p>
@@ -33,13 +38,24 @@ parmalink: '{{ product.items[0].url | slugify }}/'
         <p>数量：<input type="number" name="num"></p>
         <a class="btn" href="#">カートに入れる</a>
         <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-        
+ </div>
 	{# {% endfor %} #}
 
-  </div>
+</div>
 </main>
 <footer>
 
 </footer>
   
 </body>
+<script type="text/javascript">
+function showimg1(){
+     document.getElementById("area1").src = "{{ product.itemphotos[0] }}";
+}
+function showimg2(){
+     document.getElementById("area1").src = "{{ product.itemphotos[1] }}";
+}
+function showimg3(){
+     document.getElementById("area1").src = "{{ product.itemphotos[2] }}";
+}
+</script>

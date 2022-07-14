@@ -41,3 +41,14 @@ li{
     margin-bottom: 50px;
 }
 
+@media screen and (max-width:480px) { 
+    ul{
+        display:block;
+        padding:0;
+    }
+    li{
+        margin-left:25px;
+    }
+    
+   
+}
