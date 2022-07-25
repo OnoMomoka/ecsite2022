@@ -6,7 +6,7 @@ pagination:
 parmalink: 'goods/{{ product.items[0].url | slugify }}/'
 ---
 <head>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Kaisei+Opti:wght@400;500;700&family=Reggae+One&family=Roboto+Condensed:ital,wght@1,300&family=Stick&display=swap" rel="stylesheet">
@@ -32,19 +32,19 @@ parmalink: 'goods/{{ product.items[0].url | slugify }}/'
 <table border="0" width="470" cellpadding="0" cellspacing="0">
 <tr>
 <td width="120">
-<a href="javascript:document.ph01.src = '../images/{{ product.itemphotos[0] }}'; void(0);">
-<img src="../images/{{ product.itemphotos[0] }}" width="100" height="100"
+<a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[0] }}'; void(0);">
+<img src="../../images/{{ product.itemphotos[0] }}" width="100" height="100"
 alt="写真1" border="0"></a><br>
 
-<a href="javascript:document.ph01.src = '../images/{{ product.itemphotos[1] }}'; void(0);">
-<img src="../images/{{ product.itemphotos[1] }}" width="100" height="100"
+<a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[1] }}'; void(0);">
+<img src="../../images/{{ product.itemphotos[1] }}" width="100" height="100"
 alt="写真2" border="0" vspace="10"></a><br>
 
-<a href="javascript:document.ph01.src = '../images/{{ product.itemphotos[2] }}'; void(0);">
-<img src="../images/{{ product.itemphotos[2] }}" width="100" height="100"
+<a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[2] }}'; void(0);">
+<img src="../../images/{{ product.itemphotos[2] }}" width="100" height="100"
 alt="写真3" border="0"></a><br></td>
 
-<td width="350" align="right"><img src="../images/{{ product.itemphotos[0] }}"
+<td width="350" align="right"><img src="../../images/{{ product.itemphotos[0] }}"
 width="330" height="330" alt="拡大写真" name="ph01"></td>
 </tr>
 </table>
@@ -56,7 +56,8 @@ width="330" height="330" alt="拡大写真" name="ph01"></td>
         <p>説明：{{ product.text }}</p>
         <p>品番：{{ product.state }}</p>
         <p>数量：<input type="number" name="num"></p>
-        <a class="btn" href="#">カートに入れる</a>
+        <a class="btn" href="#">カートに入れる</a><br>
+        <br>
         <small>・ご注文時点では商品の確保は出来ておりません。<br>
 ・在庫を上回るご注文やお取り寄せが叶わない場合、ご注文は自動でお取り消しとなります。<br>
 ・お取り寄せ商品を含む複数商品を同時にご注文いただいた場合、全ての商品が揃ってからの出荷となります。<br>
