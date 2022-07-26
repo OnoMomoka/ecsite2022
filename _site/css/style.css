@@ -32,7 +32,9 @@ h2{
 ul{
     display:flex;
     flex-wrap:wrap;
-    text-align:center;
+   text-align:center;
+    justify-content:center;
+    padding-left: 0;
 }
 
 
@@ -44,10 +46,11 @@ li{
 @media screen and (max-width:480px) { 
     ul{
         display:block;
-        padding:0;
+        padding:20px;
+        text-align:left;
     }
     li{
-        margin-left:25px;
+        margin-left:15px;
     }
     #article_flex{
         flex-direction:column;
@@ -72,3 +75,4 @@ li{
     justify-content: space-between;
     padding-bottom: 100px;
 }
+
