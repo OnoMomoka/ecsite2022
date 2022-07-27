@@ -1,22 +1,25 @@
 ---
+layout: layout.njk
+title: 爆音倶楽部
 pagination:
   data: goods
   size: 1
   alias: product
 parmalink: 'goods/{{ product.items[0].url | slugify }}/'
+cssPath: ../../css/
 ---
 <head>
-    <link rel="stylesheet" href="../../css/style.css">
+   
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Kaisei+Opti:wght@400;500;700&family=Reggae+One&family=Roboto+Condensed:ital,wght@1,300&family=Stick&display=swap" rel="stylesheet">
-    <title>{{ product.name }}</title>
+    
 </head>
 <body>
 
 <header>
     <h1>爆音倶楽部</h1>
-    <a href="">home</a>
+    <a href="http://localhost:8080/index.html">home</a>
     <a href="">about</a>
 </header>
 <main>
@@ -30,23 +33,23 @@ parmalink: 'goods/{{ product.items[0].url | slugify }}/'
 {# <span onclick="showimg1()"><img src="../images/{{ product.itemphotos[0] }}"></span>　
 <span onclick="showimg2()"><img src="../images/{{ product.itemphotos[1] }}"></span>　
 <span onclick="showimg3()"><img src="../images/{{ product.itemphotos[2] }}"></span> #}
-<table border="0" width="470" cellpadding="0" cellspacing="0">
+<table border="0"  cellpadding="0" cellspacing="0">
 <tr>
-<td width="120">
+<td>
 <a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[0] }}'; void(0);">
-<img src="../../images/{{ product.itemphotos[0] }}" width="100" height="100"
+<img id="dekakunai" src="../../images/{{ product.itemphotos[0] }}" 
 alt="写真1" border="0"></a><br>
 
 <a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[1] }}'; void(0);">
-<img src="../../images/{{ product.itemphotos[1] }}" width="100" height="100"
+<img id="dekakunai" src="../../images/{{ product.itemphotos[1] }}" 
 alt="写真2" border="0" vspace="10"></a><br>
 
 <a href="javascript:document.ph01.src = '../../images/{{ product.itemphotos[2] }}'; void(0);">
-<img src="../../images/{{ product.itemphotos[2] }}" width="100" height="100"
+<img id="dekakunai" src="../../images/{{ product.itemphotos[2] }}" width="100" height="100"
 alt="写真3" border="0"></a><br></td>
 
-<td width="350" align="right"><img src="../../images/{{ product.itemphotos[0] }}"
-width="330" height="330" alt="拡大写真" name="ph01"></td>
+<td  align="right"><img id="dekai" src="../../images/{{ product.itemphotos[0] }}"
+ alt="拡大写真" name="ph01"></td>
 </tr>
 </table>
 </div>
