@@ -22,21 +22,24 @@ scriptPath: js/
 <ul>
 {% for product in goods %}
 
-	<li>
-        <a href="http://localhost:8080/article/{{ product.url }}">
+	<li class="list">
+        <a href="https://momokaaa.parasite.jp/ecsite2022//article/{{ product.url }}">
         <img src="./images/{{ product.itemphotos[0] }}">
         <p>{{ product.name }}</p>
         <p>{{ product.price }}</p>
+        <p class="state">{{ product.state }}</p>
         </a>
         </li>
 	{% endfor %}
 <ul>
 </main>
+<div class="more">
 <a class="btn" href="#">more</a>
+</div>
 <footer>
 <small>© 2022 BAKUON CLUB</small>
 </footer>
-<script src="{{ script.Pass }}script.js"></script>
+<script src="js/script.js"></script>
 </body>
 <script>
     {{ product in goods[9] }}

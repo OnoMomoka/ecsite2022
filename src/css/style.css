@@ -104,3 +104,7 @@ li{
         height:50px;
     }
 }
+
+.remove{
+    display:none;
+}
