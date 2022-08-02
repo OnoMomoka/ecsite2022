@@ -71,17 +71,25 @@ li{
 }
 #dekai{
     width:330px;
-    height:330px;
+    height:400px;
 }
 #dekakunai{
     width:100px;
     height:100px;
 }
+
+.mainimg{
+    width:300px;
+    height:500x;
+    align-items: flex-start;
+}
+
+
 }
 @media (max-width:480px) { 
     ul{
         display:block;
-        /* padding:10px; */
+        padding:15px;
         text-align:left;
         
     }
@@ -97,14 +105,21 @@ li{
      }
      #dekai{
         width:200px;
-        height:200px;
+        height:225px;
     }
     #dekakunai{
         width:50px;
         height:50px;
     }
+
+    .mainimg{
+        width:200px;
+        height:300x;
+        align-items: flex-start;
+    }
 }
 
 .remove{
     display:none;
+    
 }
