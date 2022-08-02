@@ -10,7 +10,8 @@ https://momokaaa.parasite.jp/_site/
 
 ## Features
 
-わたしが持っている、好きなアーティストのCDやDVD、グッズを販売するECサイトを制作しました。
+わたしが持っている、好きなアーティストのCDやDVD、グッズを販売するECサイト『爆音倶楽部』を制作しました。  
+
 グッズの存在感を薄めたくなかったので、あまりサイト自体に色は使っていません。
 
 ## Requirement
@@ -18,6 +19,7 @@ https://momokaaa.parasite.jp/_site/
 - 11ty@eleventy 1.0.1
 - Nunjucks
 - jQuery 3.6.0
+- JavaScript
 
 # Author
 
