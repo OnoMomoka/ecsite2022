@@ -60,6 +60,11 @@ li{
     text-align:center;
 }
 
+.h1_top{
+    text-decoration:none;
+    color:#000;
+}
+
 @media (min-width:480px) { 
 #article_flex{
     display:flex;
